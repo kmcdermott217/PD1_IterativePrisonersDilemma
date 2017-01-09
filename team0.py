@@ -6,9 +6,9 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'The name the team gives to itself' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+team_name = 'Sl0ppi4ks' # Only 10 chars displayed.
+strategy_name = 'SloppyBackstab'
+strategy_description = 'Our first move will be a "c", if our partner chooses "b", we will keep our answer as "c", if they choose "c" we will change our choice to "c". If they choose "b" then "c" we will have a random answer for teh next card.'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
