@@ -6,9 +6,9 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'Gold Team Rules' # Only 10 chars displayed.
-strategy_name = 'The Blitz'
-strategy_description = 'Eliphino'
+team_name = 'Bubble bowl bOIIIII' # Only 10 chars displayed.
+strategy_name = 'ZEE Blitz'
+strategy_description = 'Eliphino?'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
